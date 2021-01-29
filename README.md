@@ -20,7 +20,7 @@ drom new [paper-name] --skeleton paper
 drom new [note-name] --skeleton paper
 ```
 
-## Adding a new figure template and genearting the pdf inside a paper or note
+## Adding a new figure template and generating the pdf inside a paper or note
 
 ```sh
 cd [paper-name]
