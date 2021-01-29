@@ -1,0 +1,6 @@
+name = "!{name}"
+dir = "figures/!{name}"
+skeleton = "figure"
+kind = "virtual"
+
+

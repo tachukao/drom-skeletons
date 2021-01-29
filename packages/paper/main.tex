@@ -1,0 +1,41 @@
+\documentclass[a4paper]{article}
+
+\input{_header}
+\externaldocument{suppl}
+
+\input{_title}
+
+\input{_shorthand}
+
+\begin{document}
+
+\maketitle
+
+\linenumbers
+
+\input{_abstract}
+
+\begin{multicols}{2}
+
+    \input{_introduction}
+
+    \input{_results}
+
+    \input{_discussion}
+
+    \input{_methods}
+
+    \input{_acknowledgments}
+
+\end{multicols}
+
+\newpage
+\clearpage
+
+\begin{multicols}{2}
+    \small
+    \bibliographystyle{apalike}
+    \bibliography{references}
+\end{multicols}
+
+\end{document}

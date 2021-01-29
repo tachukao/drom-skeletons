@@ -1,0 +1,20 @@
+[project]
+drom-version = "0.1.0"
+
+[project]
+authors = [!{authors-for-toml}]
+copyright = "!{copyright}"
+name = "!{name}"
+synopsis = "The !{name} project"
+version = "0.1.0"
+
+[drom]
+skip = ""
+
+[project]
+skip-dirs = []
+
+[[package]]
+skeleton = "note"
+kind = "virtual"
+name = "!{name}"

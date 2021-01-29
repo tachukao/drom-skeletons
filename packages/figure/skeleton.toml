@@ -1,0 +1,7 @@
+[skeleton]
+name = "figure"
+
+[file]
+"template.gp" = { file = "!{name}.gp" }
+"template.tex" = { file = "!{name}.tex" }
+

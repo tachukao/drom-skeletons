@@ -1,0 +1,59 @@
+\newcommand{\si}{SI} % supplemental info
+\newcommand{\results}{\hyperref[sec:results]{Results}}
+\newcommand{\methods}{\hyperref[sec:methods]{Methods}}
+\newcommand{\discussion}{\hyperref[sec:discussion]{Discussion}}
+
+\newcommand\mytilde[1]{\scalebox{0.7}{$\sim\!\!$}~#1}
+\newcommand\s[1]{\tilde{#1}}
+\renewcommand\b[1]{\bm{#1}}
+\renewcommand\d{\mathsf{d}}
+\newcommand\e{\text{E}} 
+\renewcommand\i{\text{I}}
+\newcommand\acl{\b{A}_\text{cl}}
+\newcommand\cl{\text{cl}}
+\newcommand\vbm{\b{V}_{\sf m}}
+\newcommand\vm{V_{\sf m}}
+\newcommand\vmbar{\overline{\b{V}}_{\sf m}}
+\newcommand\self[1]{{\color{dpurple}#1}}
+\usepackage{skull}
+\usepackage{blindtext}
+\newcommand\sk{{\color{red}\ensuremath{\skull}}}
+\newcommand\smallnote[1]{{\footnotesize \color{gray!60!blue}~[~#1~]~}}
+\newcommand\mstar{\b{m}^\star}
+\newcommand\xstar{\b{x}^\star}
+\newcommand\ustar{\b{u}^\star}
+\newcommand\tustar{\b{\tilde{u}}^\star}
+\newcommand\x{\b{x}}
+\renewcommand\r{\b{r}}
+\renewcommand\u{\b{u}}
+\newcommand\dx{\delta\b{x}}
+\newcommand\du{\delta\b{u}}
+\newcommand\xsp{\b{x}_\text{sp}}
+\newcommand\tr[1]{\text{Tr}\left(#1\right)}
+
+\newcommand*{\figurefont}{\fontfamily{phv}\selectfont} 
+
+\creflabelformat{equation}{#2#1#3}
+
+% \definecolor{change}{HTML}{00AA00} % with diffs
+\definecolor{change}{HTML}{000000}  % without diffs
+
+% for the rebuttal
+
+\newenvironment{tochange}{\color{red}}
+
+\newenvironment{change}{\color{change}}
+
+% for the main paper
+
+\newcommand{\modif}[2]{%
+\linelabel{#1}%
+\textcolor{change}{#2}%
+\linelabel{#1:end}}
+ 
+\newcommand{\lref}[1]{line~\ref*{#1}}
+\newcommand{\lsref}[1]{lines~\ref*{#1}--\ref*{#1:end}}
+
+%%% Local Variables:
+%%% TeX-master: "main"
+%%% End:

@@ -1,0 +1,4 @@
+[skeleton]
+name = "paper"
+inherits = "figures"
+

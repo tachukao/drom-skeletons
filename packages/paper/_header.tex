@@ -1,0 +1,41 @@
+\usepackage{etex} 
+\usepackage{graphicx,comment,booktabs} 
+\usepackage[table]{xcolor}
+\usepackage[top=2cm,bottom=2.5cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{multicol} 
+\usepackage{amsmath,amssymb,bm,framed,authblk}
+\usepackage{lineno}
+\usepackage{tikz}
+\usepackage{afterpage}
+\usepackage[compress]{natbib}
+
+\definecolor{dgreen}{rgb}{0,0.6,0}
+\definecolor{dred}{rgb}{0.6,0,0}
+\definecolor{dpurple}{HTML}{A020F0}
+\definecolor{dblue}{rgb}{0,0,1}
+\definecolor{hlcolor}{rgb}{1,1,0.8}
+\definecolor{control}{HTML}{41AB5D}
+
+\usepackage{xr}
+\usepackage[colorlinks=true,linkcolor=dblue,citecolor=dred]{hyperref}
+\usepackage[nameinlink]{cleveref}
+ 
+\renewcommand\linenumberfont{\normalfont\bfseries\tiny\textcolor[HTML]{AAAAAA}}
+\setlength\linenumbersep{10pt}
+ 
+\parindent 0pt
+\parskip 6pt
+\setlength\columnsep{30pt}
+\setlength\footnotesep{15pt}
+% \sethlcolor{hlcolor}
+
+\renewcommand{\abstractname}{Summary}
+
+\newcommand\figruler{%
+    \begin{tikzpicture}[scale=\textwidth/1cm]
+        \draw [thin,dashed,gray] (0,0) -- (1,0);
+    \end{tikzpicture}}
+
+%%% Local Variables:
+%%% TeX-master: "main"
+%%% End:

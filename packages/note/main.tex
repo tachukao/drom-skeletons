@@ -1,0 +1,33 @@
+\documentclass[a4paper]{article}
+
+\input{_header}
+\externaldocument{suppl}
+
+\title{!{name}}
+
+\author[1]{\bfseries !{authors-as-strings} ${}^{\rm @}$} 
+\affil[1]{\small Computational and Biological Learning Lab, Department of Engineering, University of Cambridge, Cambridge, U.K.} 
+
+\date{\vspace*{-1em}
+\normalsize ${}^{\rm @}$ Lead contact }
+ 
+
+
+\input{_shorthand}
+
+\begin{document}
+
+\maketitle
+
+\linenumbers
+
+\newpage
+\clearpage
+
+\begin{multicols}{2}
+    \small
+    \bibliographystyle{apalike}
+    \bibliography{references}
+\end{multicols}
+
+\end{document}
